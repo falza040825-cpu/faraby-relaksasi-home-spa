@@ -215,12 +215,16 @@
   <!-- ===== LAYANAN SECTION ===== -->
   <section class="layanan" id="layanan">
     <div class="container">
-      <div class="section-header">
+            <div class="section-header">
         <span class="section-tag">Pricelist &amp; Paket Terapi</span>
         <h2 class="section-title">Daftar Menu &amp; <em>Pilihan Layanan</em></h2>
         <p class="section-subtitle">Pilih kategori perawatan, tentukan durasi yang diinginkan, lalu klik Pesan Sekarang
-          untuk menjadwalkan sesi home spa Anda.</p>
-        <div class="booking-rule-pill">Booking H-07 s/d maksimal 3 jam sebelum treatment</div>
+          untuk menjadwalkan sesi home spa Anda.<br />
+          <span style="display: inline-block; margin-top: 6px; font-size: 0.88em; color: var(--sage-deep); font-weight: 500;">
+            * Gratis ongkos transportasi untuk seluruh kota cabang (khusus cabang Bali terdapat sedikit penyesuaian harga).
+          </span>
+        </p>
+        <div class="booking-rule-pill">✨ Gratis Ongkos Transportasi • Booking H-07 s/d maksimal 3 jam sebelum treatment</div>
       </div>
 
       <!-- Tab Kategori -->
@@ -228,9 +232,8 @@
         <button class="tab-btn active" data-tab="treatment" role="tab" id="tab-treatment">Treatment</button>
         <button class="tab-btn" data-tab="beauty" role="tab" id="tab-beauty">Paket Beauty</button>
         <button class="tab-btn" data-tab="healthy" role="tab" id="tab-healthy">Paket Healthy</button>
-        <button class="tab-btn" data-tab="momy" role="tab" id="tab-momy">Paket Momy</button>
-        <button class="tab-btn" data-tab="bumil-bayi" role="tab" id="tab-bumil-bayi">Pijat Bumil &amp; Bayi</button>
-        <button class="tab-btn" data-tab="additional" role="tab" id="tab-additional">Additional</button>
+        <button class="tab-btn" data-tab="momy" role="tab" id="tab-momy">Pijat Bumil &amp; Momy</button>
+        <button class="tab-btn" data-tab="bayi-anak" role="tab" id="tab-bayi-anak">Pijat Bayi &amp; Anak</button>
       </div>
 
       <!-- Tab 1: TREATMENT -->
@@ -238,22 +241,27 @@
         <div class="menu-grid">
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-body-massage.jpg" alt="Body Massage Home Spa Faraby Relaksasi" />
+              <img src="assets/menu-body-massage.jpg" alt="Full Body Massage Home Spa Faraby Relaksasi" />
               <span class="menu-card-badge">Treatment</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage</h3>
-              <p class="menu-card-desc">Pijat relaksasi seluruh tubuh untuk mengurangi ketegangan otot dan memulihkan
-                energi.</p>
+              <h3 class="menu-card-title">Full Body Massage</h3>
+              <p class="menu-card-desc">Pijat relaksasi seluruh tubuh dengan minyak aromaterapi untuk melancarkan peredaran darah, meredakan ketegangan otot, dan memulihkan energi.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Body Massage (90 Menit)"
-                  data-price="160000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 160.000</span>
+                <button type="button" class="menu-option-row selected" data-item="Full Body Massage (60 Menit)"
+                  data-price="100000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
+                  <span class="menu-option-price">Rp 100.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Body Massage (120 Menit)" data-price="200000">
+                <button type="button" class="menu-option-row" data-item="Full Body Massage (90 Menit)"
+                  data-price="150000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 150.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Full Body Massage (120 Menit)"
+                  data-price="190000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 200.000</span>
+                  <span class="menu-option-price">Rp 190.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -269,19 +277,59 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-reflexology.jpg" alt="Massage Keseleo dan Urat Faraby Relaksasi" />
+              <img src="assets/menu-reflexology.jpg" alt="Refleksi Kaki dan Titik Saraf Faraby Relaksasi" />
               <span class="menu-card-badge">Treatment</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Massage Keseleo / Urat</h3>
-              <p class="menu-card-desc">Layanan pijat khusus keluhan urat tegang atau keseleo dengan konsultasi
-                kebutuhan sebelum sesi.</p>
+              <h3 class="menu-card-title">Refleksi</h3>
+              <p class="menu-card-desc">Terapi penekanan titik saraf dan akupresur pada telapak kaki untuk menstimulasi fungsi organ tubuh dan melancarkan sirkulasi darah.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Massage Keseleo / Urat (90 Menit)"
+                <button type="button" class="menu-option-row selected" data-item="Refleksi (60 Menit)"
+                  data-price="100000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
+                  <span class="menu-option-price">Rp 100.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Refleksi (90 Menit)"
+                  data-price="150000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 150.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Refleksi (120 Menit)"
+                  data-price="190000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 190.000</span>
+                </button>
+              </div>
+              <button type="button" class="btn-pesan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="3" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="assets/spa-ritual.jpg" alt="Pijat Keseleo dan Urat Faraby Relaksasi" />
+              <span class="menu-card-badge">Terapi Khusus</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Pijat Keseleo / Urat</h3>
+              <p class="menu-card-desc">Layanan pijat khusus penanganan urat tegang, kram, atau keseleo dengan teknik terapi berpengalaman dan aman.</p>
+              <div class="menu-options">
+                <button type="button" class="menu-option-row selected" data-item="Pijat Keseleo / Urat (90 Menit)"
                   data-price="185000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
                   <span class="menu-option-price">Rp 185.000</span>
                 </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Keseleo / Urat (120 Menit)"
+                  data-price="235000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 235.000</span>
+                </button>
               </div>
               <button type="button" class="btn-pesan">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
@@ -296,18 +344,27 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-herbal.jpg" alt="Bekam Basah Steril Faraby Relaksasi" />
-              <span class="menu-card-badge">Terpopuler</span>
+              <img src="assets/spa-aromatherapy.jpg" alt="Pijat Kering Tanpa Minyak Faraby Relaksasi" />
+              <span class="menu-card-badge">Dry Massage</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Bekam Basah</h3>
-              <p class="menu-card-desc">Terapi hijama sesuai sunnah menggunakan perlengkapan steril sekali pakai untuk
-                detoksifikasi alami.</p>
+              <h3 class="menu-card-title">Pijat Kering (Tanpa Minyak)</h3>
+              <p class="menu-card-desc">Teknik pijat relaksasi dan peregangan ala shiatsu tanpa baluran minyak, praktis, nyaman, dan tetap melepas pegal otot.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Bekam Basah (60 Menit)"
-                  data-price="200000">
+                <button type="button" class="menu-option-row selected" data-item="Pijat Kering (Tanpa Minyak) (60 Menit)"
+                  data-price="145000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
-                  <span class="menu-option-price">Rp 200.000</span>
+                  <span class="menu-option-price">Rp 145.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Kering (Tanpa Minyak) (90 Menit)"
+                  data-price="195000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 195.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Kering (Tanpa Minyak) (120 Menit)"
+                  data-price="235000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 235.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -323,137 +380,22 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/spa-ritual.jpg" alt="Perawatan Pasca Melahirkan dan Peranakan" />
-              <span class="menu-card-badge">Treatment</span>
+              <img src="assets/menu-body-massage.jpg" alt="Sport Massage Faraby Relaksasi" />
+              <span class="menu-card-badge">Deep Tissue</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Pasca Melahirkan &amp; Peranakan</h3>
-              <p class="menu-card-desc">Terapi pijat pemulihan khusus ibu setelah melahirkan serta perawatan kenyamanan
-                peranakan.</p>
+              <h3 class="menu-card-title">Sport Massage</h3>
+              <p class="menu-card-desc">Terapi pijat tekanan dalam (deep tissue) untuk mempercepat pemulihan otot kaku, mencegah cedera, dan melepaskan asam laktat.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Body Massage Pasca Melahirkan (90 Menit)" data-price="220000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Pasca Melahirkan · 90
-                    Menit</span>
-                  <span class="menu-option-price">Rp 220.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Massage Peranakan (120 Menit)"
+                <button type="button" class="menu-option-row selected" data-item="Sport Massage (90 Menit)"
                   data-price="250000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Massage Peranakan · 120
-                    Menit</span>
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
                   <span class="menu-option-price">Rp 250.000</span>
                 </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-maternity.jpg" alt="Massage Ibu Hamil dan Totok Wajah" />
-              <span class="menu-card-badge">Treatment</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Massage Ibu Hamil</h3>
-              <p class="menu-card-desc">Pijat lembut khusus masa kehamilan dengan pilihan kombinasi totok wajah yang
-                menenangkan.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Massage Ibu Hamil (90 Menit)"
-                  data-price="220000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Ibu Hamil · 90 Menit</span>
-                  <span class="menu-option-price">Rp 220.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Massage Ibu Hamil + Totok Wajah (90 Menit)"
-                  data-price="260000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>+ Totok Wajah · 90 Menit</span>
-                  <span class="menu-option-price">Rp 260.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Massage Ibu Hamil + Totok Wajah (120 Menit)"
-                  data-price="280000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>+ Totok Wajah · 120 Menit</span>
-                  <span class="menu-option-price">Rp 280.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/spa-facial.jpg" alt="Paket Bumil Lulur dan Princess Komplit" />
-              <span class="menu-card-badge">Treatment</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Bumil Lulur &amp; Princess Komplit</h3>
-              <p class="menu-card-desc">Perawatan lengkap ibu hamil dipadukan scrub lulur alami dan totok wajah untuk
-                relaksasi menyeluruh.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Massage Bumil + Lulur (90 Menit)"
-                  data-price="265000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Bumil + Lulur · 90 Menit</span>
-                  <span class="menu-option-price">Rp 265.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Massage Bumil + Lulur (120 Menit)"
+                <button type="button" class="menu-option-row" data-item="Sport Massage (120 Menit)"
                   data-price="300000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Bumil + Lulur · 120 Menit</span>
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
                   <span class="menu-option-price">Rp 300.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Paket Bumil Princess Komplit (150 Menit)"
-                  data-price="380000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Princess Komplit · 150
-                    Menit</span>
-                  <span class="menu-option-price">Rp 380.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-baby.jpg" alt="Baby Toddler dan Kids Massage" />
-              <span class="menu-card-badge">Treatment</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Baby, Toddler &amp; Kids Massage</h3>
-              <p class="menu-card-desc">Sentuhan pijat lembut sesuai usia si kecil untuk membantu tumbuh kembang dan
-                tidur lebih nyenyak.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Baby Massage 0-2th (30 Menit)"
-                  data-price="150000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Baby 0–2 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 150.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Toddler Massage 2-5th (30 Menit)"
-                  data-price="170000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Toddler 2–5 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Kids Massage 5-10th (30 Menit)"
-                  data-price="170000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Kids 5–10 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -478,17 +420,47 @@
               <span class="menu-card-badge">Paket Beauty</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Totok Wajah</h3>
-              <p class="menu-card-desc">Kombinasi pijat tubuh menyeluruh dan akupresur totok wajah untuk relaksasi serta
-                wajah tampak lebih segar.</p>
+              <h3 class="menu-card-title">Full Body Massage &amp; Totok Wajah</h3>
+              <p class="menu-card-desc">Kombinasi pijat tubuh relaksasi menyeluruh dan akupresur totok wajah untuk sirkulasi darah lancar dan wajah segar merona.</p>
               <div class="menu-options">
                 <button type="button" class="menu-option-row selected"
-                  data-item="Paket Beauty: Body Massage + Totok Wajah (90 Menit)" data-price="170000">
+                  data-item="Full Body Massage & Totok Wajah (90 Menit)" data-price="160000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 160.000</span>
+                </button>
+                <button type="button" class="menu-option-row"
+                  data-item="Full Body Massage & Totok Wajah (120 Menit)" data-price="200000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 200.000</span>
+                </button>
+              </div>
+              <button type="button" class="btn-pesan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="3" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="assets/menu-herbal.jpg" alt="Paket Beauty Body Massage dan Scrub" />
+              <span class="menu-card-badge">Paket Beauty</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Full Body Massage &amp; Scrub</h3>
+              <p class="menu-card-desc">Perpaduan pijat relaksasi tubuh dan scrub lulur bahan alami untuk mengangkat sel kulit mati, melembutkan, dan mencerahkan kulit.</p>
+              <div class="menu-options">
+                <button type="button" class="menu-option-row selected"
+                  data-item="Full Body Massage & Scrub (90 Menit)" data-price="170000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
                   <span class="menu-option-price">Rp 170.000</span>
                 </button>
-                <button type="button" class="menu-option-row"
-                  data-item="Paket Beauty: Body Massage + Totok Wajah (120 Menit)" data-price="220000">
+                <button type="button" class="menu-option-row" data-item="Full Body Massage & Scrub (120 Menit)"
+                  data-price="220000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
                   <span class="menu-option-price">Rp 220.000</span>
                 </button>
@@ -506,23 +478,22 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-herbal.jpg" alt="Paket Beauty Body Massage dan Lulur" />
-              <span class="menu-card-badge">Paket Beauty</span>
+              <img src="assets/spa-ritual.jpg" alt="Hot Stone dan Body Massage" />
+              <span class="menu-card-badge">Paket Beauty &amp; Spa</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Lulur</h3>
-              <p class="menu-card-desc">Perpaduan pijat relaksasi dan scrub lulur bahan alami untuk menghaluskan serta
-                mencerahkan kulit tubuh.</p>
+              <h3 class="menu-card-title">Hot Stone &amp; Body Massage</h3>
+              <p class="menu-card-desc">Sensasi relaksasi mendalam menggunakan batu basal hangat untuk melemaskan otot tegang, melancarkan energi, dan meredakan stres.</p>
               <div class="menu-options">
                 <button type="button" class="menu-option-row selected"
-                  data-item="Paket Beauty: Body Massage + Lulur (90 Menit)" data-price="170000">
+                  data-item="Hot Stone & Body Massage (90 Menit)" data-price="210000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
+                  <span class="menu-option-price">Rp 210.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Paket Beauty: Body Massage + Lulur (120 Menit)"
-                  data-price="220000">
+                <button type="button" class="menu-option-row"
+                  data-item="Hot Stone & Body Massage (120 Menit)" data-price="260000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 220.000</span>
+                  <span class="menu-option-price">Rp 260.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -547,19 +518,18 @@
               <span class="menu-card-badge">Paket Healthy</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Refleksi</h3>
-              <p class="menu-card-desc">Kombinasi pijat seluruh tubuh dan titik refleksi telapak kaki untuk memperlancar
-                sirkulasi dan kebugaran.</p>
+              <h3 class="menu-card-title">Full Body Massage &amp; Refleksi</h3>
+              <p class="menu-card-desc">Kombinasi pijat seluruh tubuh dan titik refleksi telapak kaki untuk memperlancar sirkulasi, metabolisme, dan kebugaran.</p>
               <div class="menu-options">
                 <button type="button" class="menu-option-row selected"
-                  data-item="Paket Healthy: Body Massage + Refleksi (90 Menit)" data-price="170000">
+                  data-item="Full Body Massage & Refleksi (90 Menit)" data-price="160000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
+                  <span class="menu-option-price">Rp 160.000</span>
                 </button>
                 <button type="button" class="menu-option-row"
-                  data-item="Paket Healthy: Body Massage + Refleksi (120 Menit)" data-price="220000">
+                  data-item="Full Body Massage & Refleksi (120 Menit)" data-price="200000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 220.000</span>
+                  <span class="menu-option-price">Rp 200.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -579,298 +549,17 @@
               <span class="menu-card-badge">Paket Healthy</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Kerokan</h3>
-              <p class="menu-card-desc">Solusi hangat untuk meredakan pegal, masuk angin, dan mengembalikan rasa nyaman
-                pada tubuh.</p>
+              <h3 class="menu-card-title">Full Body Massage &amp; Kerokan</h3>
+              <p class="menu-card-desc">Solusi hangat untuk meredakan pegal linu, masuk angin, dan meriang dipadukan pijat tubuh relaksasi.</p>
               <div class="menu-options">
                 <button type="button" class="menu-option-row selected"
-                  data-item="Paket Healthy: Body Massage + Kerokan (90 Menit)" data-price="170000">
+                  data-item="Full Body Massage & Kerokan (90 Menit)" data-price="160000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
+                  <span class="menu-option-price">Rp 160.000</span>
                 </button>
                 <button type="button" class="menu-option-row"
-                  data-item="Paket Healthy: Body Massage + Kerokan (120 Menit)" data-price="220000">
+                  data-item="Full Body Massage & Kerokan (120 Menit)" data-price="200000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 220.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-herbal.jpg" alt="Paket Healthy Body Massage dan Bekam Basah" />
-              <span class="menu-card-badge">Paket Healthy</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Bekam Basah</h3>
-              <p class="menu-card-desc">Perpaduan pijat pelemas otot sebelum terapi hijama sunnah dengan alat steril
-                sekali pakai.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Paket Healthy: Body Massage + Bekam Basah (90 Menit)" data-price="350000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 350.000</span>
-                </button>
-                <button type="button" class="menu-option-row"
-                  data-item="Paket Healthy: Body Massage + Bekam Basah (120 Menit)" data-price="400000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 400.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-        </div>
-      </div>
-
-      <!-- Tab 4: PAKET MOMY -->
-      <div class="tab-content" id="tab-content-momy">
-        <div class="menu-grid">
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-maternity.jpg" alt="Paket Momy Body Massage dan Laktasi" />
-              <span class="menu-card-badge">Paket Momy</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Body Massage + Laktasi</h3>
-              <p class="menu-card-desc">Pijat relaksasi ibu menyusui dipadukan terapi laktasi untuk mendukung kelancaran
-                dan kenyamanan ASI.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Paket Momy: Body Massage + Laktasi (90 Menit)" data-price="320000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 320.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Paket Momy: Body Massage + Laktasi (120 Menit)"
-                  data-price="380000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 380.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-baby.jpg" alt="Paket Mom and Baby Massage" />
-              <span class="menu-card-badge">Paket Momy</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Mom &amp; Baby Massage</h3>
-              <p class="menu-card-desc">Sesi relaksasi bersamaan untuk ibu dan bayi tercinta agar sama-sama merasa
-                nyaman dan tenang.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Paket Momy: Mom &amp; Baby Massage (120 Menit)" data-price="300000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 300.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/spa-ritual.jpg" alt="Paket Mom and Kids Massage" />
-              <span class="menu-card-badge">Paket Momy</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Mom &amp; Kids Massage</h3>
-              <p class="menu-card-desc">Perawatan pijat hangat untuk ibu bersama si kecil dalam satu kunjungan terapis
-                ke rumah.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Paket Momy: Mom &amp; Kids Massage (120 Menit)" data-price="350000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 350.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-        </div>
-      </div>
-
-      <!-- Tab 5: PIJAT BUMIL & BAYI (Home Spa Pricelist) -->
-      <div class="tab-content" id="tab-content-bumil-bayi">
-        <p class="tab-subnote">Rawat diri, hadirkan ketenangan untuk Anda dan si kecil dengan pilihan menu khusus Home
-          Spa.</p>
-        <div class="menu-grid">
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-maternity.jpg" alt="Pijat Bumil Home Spa" />
-              <span class="menu-card-badge">Pijat Bumil</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Pijat Bumil</h3>
-              <p class="menu-card-desc">Pijat kehamilan yang lembut dan aman untuk membantu meredakan pegal punggung
-                serta bengkak kaki.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Pijat Bumil (90 Menit)"
-                  data-price="225000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 225.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/spa-facial.jpg" alt="Pijat Bumil dan Totok Wajah" />
-              <span class="menu-card-badge">Pijat Bumil</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Pijat Bumil &amp; Totok Wajah</h3>
-              <p class="menu-card-desc">Relaksasi tubuh selama kehamilan dipadukan pijat akupresur wajah untuk
-                mengurangi penat dan pegal.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Pijat Bumil &amp; Totok Wajah (90 Menit)" data-price="265000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 265.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Pijat Bumil &amp; Totok Wajah (120 Menit)"
-                  data-price="285000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 285.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-herbal.jpg" alt="Pijat Bumil dan Lulur" />
-              <span class="menu-card-badge">Pijat Bumil</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Pijat Bumil &amp; Lulur</h3>
-              <p class="menu-card-desc">Perawatan pijat ibu hamil disertai lulur lembut untuk menjaga kehalusan dan
-                kesegaran kulit.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Pijat Bumil &amp; Lulur (90 Menit)"
-                  data-price="265000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 265.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Paket Bumil Pijat Lulur (120 Menit)"
-                  data-price="300000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 300.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/spa-ritual.jpg" alt="Paket Bumil Princess Komplit Home Spa" />
-              <span class="menu-card-badge">Komplit</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Paket Bumil Princess Komplit</h3>
-              <p class="menu-card-desc">Rangkaian 150 menit: Pijat 90 menit, Totok Wajah 30 menit, dan Lulur 30 menit.
-              </p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected"
-                  data-item="Paket Bumil Princess Komplit Home Spa (150 Menit)" data-price="375000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>150 Menit</span>
-                  <span class="menu-option-price">Rp 375.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/menu-baby.jpg" alt="Pijat Bayi dan Anak Home Spa" />
-              <span class="menu-card-badge">Pijat Bayi</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Pijat Bayi &amp; Anak</h3>
-              <p class="menu-card-desc">Stimulasi sentuhan lembut untuk membantu kenyamanan, nafsu makan, dan tidur
-                lelap si kecil.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Pijat Bayi Home Spa (30 Menit)"
-                  data-price="175000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Pijat Bayi · 30 Menit</span>
-                  <span class="menu-option-price">Rp 175.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Pijat Anak Home Spa (45 Menit)"
-                  data-price="200000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Pijat Anak · 45 Menit</span>
                   <span class="menu-option-price">Rp 200.000</span>
                 </button>
               </div>
@@ -887,23 +576,27 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-body-massage.jpg" alt="Pasca Melahirkan Pijat Relaksasi dan Laktasi" />
-              <span class="menu-card-badge">Pasca Melahirkan</span>
+              <img src="assets/menu-herbal.jpg" alt="Bekam Basah dan Body Massage Faraby Relaksasi" />
+              <span class="menu-card-badge">Sunnah &amp; Steril</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Pijat Relaksasi &amp; Laktasi</h3>
-              <p class="menu-card-desc">Perawatan ibu pasca melahirkan untuk membantu pemulihan tenaga dan kelancaran
-                masa menyusui.</p>
+              <h3 class="menu-card-title">Bekam Basah &amp; Body Massage</h3>
+              <p class="menu-card-desc">Perpaduan pijat pelemas otot sebelum terapi hijama sunnah menggunakan perlengkapan steril sekali pakai untuk detoksifikasi alami.</p>
               <div class="menu-options">
                 <button type="button" class="menu-option-row selected"
-                  data-item="Pijat Relaksasi &amp; Laktasi (90 Menit)" data-price="325000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
-                  <span class="menu-option-price">Rp 325.000</span>
+                  data-item="Bekam Basah & Body Massage (60 Menit)" data-price="245000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
+                  <span class="menu-option-price">Rp 245.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Pijat Relaksasi &amp; Laktasi (120 Menit)"
-                  data-price="375000">
+                <button type="button" class="menu-option-row"
+                  data-item="Bekam Basah & Body Massage (90 Menit)" data-price="280000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 280.000</span>
+                </button>
+                <button type="button" class="menu-option-row"
+                  data-item="Bekam Basah & Body Massage (120 Menit)" data-price="310000">
                   <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
-                  <span class="menu-option-price">Rp 375.000</span>
+                  <span class="menu-option-price">Rp 310.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -919,76 +612,32 @@
         </div>
       </div>
 
-      <!-- Tab 6: ADDITIONAL -->
-      <div class="tab-content" id="tab-content-additional">
-        <p class="tab-subnote">Tambahan durasi atau perawatan pelengkap 30 menit untuk menyempurnakan sesi terapi Anda.
-        </p>
+      <!-- Tab 4: PIJAT BUMIL & MOMY -->
+      <div class="tab-content" id="tab-content-momy">
         <div class="menu-grid">
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-body-massage.jpg" alt="Additional Body Massage Refleksi dan Kerokan" />
-              <span class="menu-card-badge">Additional 30'</span>
+              <img src="assets/menu-maternity.jpg" alt="Pijat Ibu Hamil Faraby Relaksasi" />
+              <span class="menu-card-badge">Bumil Care</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Tambahan Relaksasi</h3>
-              <p class="menu-card-desc">Pilihan perpanjangan waktu atau tambahan perawatan relaksasi tubuh 30 menit.</p>
+              <h3 class="menu-card-title">Pijat Ibu Hamil</h3>
+              <p class="menu-card-desc">Pijat khusus kehamilan yang lembut dan aman untuk membantu meredakan nyeri punggung, pinggang, serta pegal kaki ibu hamil.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Additional Body Massage (30 Menit)"
-                  data-price="50000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Body Massage · 30 Menit</span>
-                  <span class="menu-option-price">Rp 50.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Additional Refleksi (30 Menit)"
-                  data-price="90000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Refleksi · 30 Menit</span>
-                  <span class="menu-option-price">Rp 90.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Additional Kerokan (30 Menit)"
-                  data-price="50000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Kerokan · 30 Menit</span>
-                  <span class="menu-option-price">Rp 50.000</span>
-                </button>
-              </div>
-              <button type="button" class="btn-pesan">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <rect width="18" height="18" x="3" y="3" rx="3" />
-                  <path d="m9 12 2 2 4-4" />
-                </svg>
-                Pesan Sekarang
-              </button>
-            </div>
-          </article>
-
-          <article class="menu-card">
-            <div class="menu-card-media">
-              <img src="assets/spa-facial.jpg" alt="Additional Totok Wajah Lulur Boren dan Bekam Kering" />
-              <span class="menu-card-badge">Additional 30'</span>
-            </div>
-            <div class="menu-card-body">
-              <h3 class="menu-card-title">Tambahan Beauty &amp; Terapi</h3>
-              <p class="menu-card-desc">Tambahan perawatan wajah, lulur, boren tradisional, hingga bekam kering 30
-                menit.</p>
-              <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Additional Totok Wajah (30 Menit)"
-                  data-price="50000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Totok Wajah · 30 Menit</span>
-                  <span class="menu-option-price">Rp 50.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Additional Lulur (30 Menit)"
-                  data-price="100000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Lulur · 30 Menit</span>
-                  <span class="menu-option-price">Rp 100.000</span>
-                </button>
-                <button type="button" class="menu-option-row" data-item="Additional Boren (30 Menit)"
+                <button type="button" class="menu-option-row selected" data-item="Pijat Ibu Hamil (60 Menit)"
                   data-price="150000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Boren · 30 Menit</span>
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
                   <span class="menu-option-price">Rp 150.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Additional Bekam Kering (30 Menit)"
-                  data-price="100000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Bekam Kering · 30 Menit</span>
-                  <span class="menu-option-price">Rp 100.000</span>
+                <button type="button" class="menu-option-row" data-item="Pijat Ibu Hamil (90 Menit)"
+                  data-price="190000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 190.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Ibu Hamil (120 Menit)"
+                  data-price="240000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 240.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -1004,32 +653,95 @@
 
           <article class="menu-card">
             <div class="menu-card-media">
-              <img src="assets/menu-baby.jpg" alt="Additional Laktasi dan Pijat Anak" />
-              <span class="menu-card-badge">Additional 30'</span>
+              <img src="assets/spa-aromatherapy.jpg" alt="Pijat Laktasi Faraby Relaksasi" />
+              <span class="menu-card-badge">Momy Care</span>
             </div>
             <div class="menu-card-body">
-              <h3 class="menu-card-title">Tambahan Ibu &amp; Anak</h3>
-              <p class="menu-card-desc">Tambahan sesi laktasi atau pijat si kecil 30 menit dalam kunjungan keluarga.</p>
+              <h3 class="menu-card-title">Pijat Laktasi</h3>
+              <p class="menu-card-desc">Stimulasi dan pemijatan payudara serta punggung untuk membantu memperlancar aliran ASI, meredakan payudara bengkak, dan memberikan kenyamanan menyusui.</p>
               <div class="menu-options">
-                <button type="button" class="menu-option-row selected" data-item="Additional Laktasi (30 Menit)"
-                  data-price="90000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Laktasi · 30 Menit</span>
-                  <span class="menu-option-price">Rp 90.000</span>
+                <button type="button" class="menu-option-row selected" data-item="Pijat Laktasi (60 Menit)"
+                  data-price="150000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>60 Menit</span>
+                  <span class="menu-option-price">Rp 150.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Additional Baby Massage 0-2th (30 Menit)"
-                  data-price="160000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Baby 0–2 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 160.000</span>
+                <button type="button" class="menu-option-row" data-item="Pijat Laktasi (90 Menit)"
+                  data-price="200000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 200.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Additional Toddler Massage 2-5th (30 Menit)"
-                  data-price="170000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Toddler 2–5 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 170.000</span>
+              </div>
+              <button type="button" class="btn-pesan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="3" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="assets/spa-facial.jpg" alt="Pijat Turun Peranakan Faraby Relaksasi" />
+              <span class="menu-card-badge">Momy Care</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Pijat Turun Peranakan</h3>
+              <p class="menu-card-desc">Terapi pemijatan lembut dan aman khusus perawatan rongga panggul serta pemulihan organ kewanitaan pasca melahirkan.</p>
+              <div class="menu-options">
+                <button type="button" class="menu-option-row selected" data-item="Pijat Turun Peranakan (90 Menit)"
+                  data-price="190000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>90 Menit</span>
+                  <span class="menu-option-price">Rp 190.000</span>
                 </button>
-                <button type="button" class="menu-option-row" data-item="Additional Kids Massage 5-10th (30 Menit)"
-                  data-price="175000">
-                  <span class="menu-option-label"><span class="menu-option-dot"></span>Kids 5–10 Th · 30 Menit</span>
-                  <span class="menu-option-price">Rp 175.000</span>
+                <button type="button" class="menu-option-row" data-item="Pijat Turun Peranakan (120 Menit)"
+                  data-price="240000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>120 Menit</span>
+                  <span class="menu-option-price">Rp 240.000</span>
+                </button>
+              </div>
+              <button type="button" class="btn-pesan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect width="18" height="18" x="3" y="3" rx="3" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Tab 5: PIJAT BAYI & ANAK -->
+      <div class="tab-content" id="tab-content-bayi-anak">
+        <p class="tab-subnote">Pilihan sentuhan terapi pijat hangat untuk merawat buah hati tercinta di rumah.</p>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-card-media">
+              <img src="assets/menu-baby.jpg" alt="Pijat Bayi dan Balita Faraby Relaksasi" />
+              <span class="menu-card-badge">Kids Care</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-title">Pijat Bayi &amp; Balita</h3>
+              <p class="menu-card-desc">Stimulasi sentuhan lembut oleh terapis terlatih untuk meningkatkan daya tahan tubuh, melancarkan pencernaan, dan membuat tidur si kecil lebih nyenyak.</p>
+              <div class="menu-options">
+                <button type="button" class="menu-option-row selected" data-item="Pijat Bayi < 3 Tahun (45 Menit)"
+                  data-price="150000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>Bayi (&lt; 3 Th) · 45 Menit</span>
+                  <span class="menu-option-price">Rp 150.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Balita 3-6 Tahun (45 Menit)"
+                  data-price="130000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>Balita (3–6 Th) · 45 Menit</span>
+                  <span class="menu-option-price">Rp 130.000</span>
+                </button>
+                <button type="button" class="menu-option-row" data-item="Pijat Balita 3-6 Tahun (60 Menit)"
+                  data-price="150000">
+                  <span class="menu-option-label"><span class="menu-option-dot"></span>Balita (3–6 Th) · 60 Menit</span>
+                  <span class="menu-option-price">Rp 150.000</span>
                 </button>
               </div>
               <button type="button" class="btn-pesan">
@@ -1376,113 +1088,53 @@
             <label for="servicePicker">Pilih Layanan &amp; Paket * <span class="hint">(bisa tambah lebih dari
                 satu)</span></label>
             <div class="service-picker-row">
-              <select id="servicePicker">
+                            <select id="servicePicker">
                 <option value="">-- Pilih menu layanan / paket --</option>
                 <optgroup label="Treatment">
-                  <option value="Body Massage (90 Menit)" data-price="160000">Body Massage 90 Menit — Rp 160.000
-                  </option>
-                  <option value="Body Massage (120 Menit)" data-price="200000">Body Massage 120 Menit — Rp 200.000
-                  </option>
-                  <option value="Massage Keseleo / Urat (90 Menit)" data-price="185000">Massage Keseleo / Urat 90 Menit
-                    — Rp 185.000</option>
-                  <option value="Bekam Basah (60 Menit)" data-price="200000">Bekam Basah 60 Menit — Rp 200.000</option>
-                  <option value="Body Massage Pasca Melahirkan (90 Menit)" data-price="220000">Body Massage Pasca
-                    Melahirkan 90 Menit — Rp 220.000</option>
-                  <option value="Massage Peranakan (120 Menit)" data-price="250000">Massage Peranakan 120 Menit — Rp
-                    250.000</option>
-                  <option value="Massage Ibu Hamil (90 Menit)" data-price="220000">Massage Ibu Hamil 90 Menit — Rp
-                    220.000</option>
-                  <option value="Massage Ibu Hamil + Totok Wajah (90 Menit)" data-price="260000">Massage Ibu Hamil +
-                    Totok Wajah 90 Menit — Rp 260.000</option>
-                  <option value="Massage Ibu Hamil + Totok Wajah (120 Menit)" data-price="280000">Massage Ibu Hamil +
-                    Totok Wajah 120 Menit — Rp 280.000</option>
-                  <option value="Massage Bumil + Lulur (90 Menit)" data-price="265000">Massage Bumil + Lulur 90 Menit —
-                    Rp 265.000</option>
-                  <option value="Massage Bumil + Lulur (120 Menit)" data-price="300000">Massage Bumil + Lulur 120 Menit
-                    — Rp 300.000</option>
-                  <option value="Paket Bumil Princess Komplit (150 Menit)" data-price="380000">Paket Bumil Princess
-                    Komplit 150 Menit — Rp 380.000</option>
-                  <option value="Baby Massage 0-2th (30 Menit)" data-price="150000">Baby Massage 0–2 Th 30 Menit — Rp
-                    150.000</option>
-                  <option value="Toddler Massage 2-5th (30 Menit)" data-price="170000">Toddler Massage 2–5 Th 30 Menit —
-                    Rp 170.000</option>
-                  <option value="Kids Massage 5-10th (30 Menit)" data-price="170000">Kids Massage 5–10 Th 30 Menit — Rp
-                    170.000</option>
+                  <option value="Full Body Massage (60 Menit)" data-price="100000">Full Body Massage 60 Menit — Rp 100.000</option>
+                  <option value="Full Body Massage (90 Menit)" data-price="150000">Full Body Massage 90 Menit — Rp 150.000</option>
+                  <option value="Full Body Massage (120 Menit)" data-price="190000">Full Body Massage 120 Menit — Rp 190.000</option>
+                  <option value="Refleksi (60 Menit)" data-price="100000">Refleksi 60 Menit — Rp 100.000</option>
+                  <option value="Refleksi (90 Menit)" data-price="150000">Refleksi 90 Menit — Rp 150.000</option>
+                  <option value="Refleksi (120 Menit)" data-price="190000">Refleksi 120 Menit — Rp 190.000</option>
+                  <option value="Pijat Keseleo / Urat (90 Menit)" data-price="185000">Pijat Keseleo / Urat 90 Menit — Rp 185.000</option>
+                  <option value="Pijat Keseleo / Urat (120 Menit)" data-price="235000">Pijat Keseleo / Urat 120 Menit — Rp 235.000</option>
+                  <option value="Pijat Kering (Tanpa Minyak) (60 Menit)" data-price="145000">Pijat Kering (Tanpa Minyak) 60 Menit — Rp 145.000</option>
+                  <option value="Pijat Kering (Tanpa Minyak) (90 Menit)" data-price="195000">Pijat Kering (Tanpa Minyak) 90 Menit — Rp 195.000</option>
+                  <option value="Pijat Kering (Tanpa Minyak) (120 Menit)" data-price="235000">Pijat Kering (Tanpa Minyak) 120 Menit — Rp 235.000</option>
+                  <option value="Sport Massage (90 Menit)" data-price="250000">Sport Massage 90 Menit — Rp 250.000</option>
+                  <option value="Sport Massage (120 Menit)" data-price="300000">Sport Massage 120 Menit — Rp 300.000</option>
                 </optgroup>
                 <optgroup label="Paket Beauty">
-                  <option value="Paket Beauty: Body Massage + Totok Wajah (90 Menit)" data-price="170000">Body Massage +
-                    Totok Wajah 90 Menit — Rp 170.000</option>
-                  <option value="Paket Beauty: Body Massage + Totok Wajah (120 Menit)" data-price="220000">Body Massage
-                    + Totok Wajah 120 Menit — Rp 220.000</option>
-                  <option value="Paket Beauty: Body Massage + Lulur (90 Menit)" data-price="170000">Body Massage + Lulur
-                    90 Menit — Rp 170.000</option>
-                  <option value="Paket Beauty: Body Massage + Lulur (120 Menit)" data-price="220000">Body Massage +
-                    Lulur 120 Menit — Rp 220.000</option>
+                  <option value="Full Body Massage & Totok Wajah (90 Menit)" data-price="160000">Full Body Massage &amp; Totok Wajah 90 Menit — Rp 160.000</option>
+                  <option value="Full Body Massage & Totok Wajah (120 Menit)" data-price="200000">Full Body Massage &amp; Totok Wajah 120 Menit — Rp 200.000</option>
+                  <option value="Full Body Massage & Scrub (90 Menit)" data-price="170000">Full Body Massage &amp; Scrub 90 Menit — Rp 170.000</option>
+                  <option value="Full Body Massage & Scrub (120 Menit)" data-price="220000">Full Body Massage &amp; Scrub 120 Menit — Rp 220.000</option>
+                  <option value="Hot Stone & Body Massage (90 Menit)" data-price="210000">Hot Stone &amp; Body Massage 90 Menit — Rp 210.000</option>
+                  <option value="Hot Stone & Body Massage (120 Menit)" data-price="260000">Hot Stone &amp; Body Massage 120 Menit — Rp 260.000</option>
                 </optgroup>
                 <optgroup label="Paket Healthy">
-                  <option value="Paket Healthy: Body Massage + Refleksi (90 Menit)" data-price="170000">Body Massage +
-                    Refleksi 90 Menit — Rp 170.000</option>
-                  <option value="Paket Healthy: Body Massage + Refleksi (120 Menit)" data-price="220000">Body Massage +
-                    Refleksi 120 Menit — Rp 220.000</option>
-                  <option value="Paket Healthy: Body Massage + Kerokan (90 Menit)" data-price="170000">Body Massage +
-                    Kerokan 90 Menit — Rp 170.000</option>
-                  <option value="Paket Healthy: Body Massage + Kerokan (120 Menit)" data-price="220000">Body Massage +
-                    Kerokan 120 Menit — Rp 220.000</option>
-                  <option value="Paket Healthy: Body Massage + Bekam Basah (90 Menit)" data-price="350000">Body Massage
-                    + Bekam Basah 90 Menit — Rp 350.000</option>
-                  <option value="Paket Healthy: Body Massage + Bekam Basah (120 Menit)" data-price="400000">Body Massage
-                    + Bekam Basah 120 Menit — Rp 400.000</option>
+                  <option value="Full Body Massage & Refleksi (90 Menit)" data-price="160000">Full Body Massage &amp; Refleksi 90 Menit — Rp 160.000</option>
+                  <option value="Full Body Massage & Refleksi (120 Menit)" data-price="200000">Full Body Massage &amp; Refleksi 120 Menit — Rp 200.000</option>
+                  <option value="Full Body Massage & Kerokan (90 Menit)" data-price="160000">Full Body Massage &amp; Kerokan 90 Menit — Rp 160.000</option>
+                  <option value="Full Body Massage & Kerokan (120 Menit)" data-price="200000">Full Body Massage &amp; Kerokan 120 Menit — Rp 200.000</option>
+                  <option value="Bekam Basah & Body Massage (60 Menit)" data-price="245000">Bekam Basah &amp; Body Massage 60 Menit — Rp 245.000</option>
+                  <option value="Bekam Basah & Body Massage (90 Menit)" data-price="280000">Bekam Basah &amp; Body Massage 90 Menit — Rp 280.000</option>
+                  <option value="Bekam Basah & Body Massage (120 Menit)" data-price="310000">Bekam Basah &amp; Body Massage 120 Menit — Rp 310.000</option>
                 </optgroup>
-                <optgroup label="Paket Momy">
-                  <option value="Paket Momy: Body Massage + Laktasi (90 Menit)" data-price="320000">Body Massage +
-                    Laktasi 90 Menit — Rp 320.000</option>
-                  <option value="Paket Momy: Body Massage + Laktasi (120 Menit)" data-price="380000">Body Massage +
-                    Laktasi 120 Menit — Rp 380.000</option>
-                  <option value="Paket Momy: Mom &amp; Baby Massage (120 Menit)" data-price="300000">Mom &amp; Baby
-                    Massage 120 Menit — Rp 300.000</option>
-                  <option value="Paket Momy: Mom &amp; Kids Massage (120 Menit)" data-price="350000">Mom &amp; Kids
-                    Massage 120 Menit — Rp 350.000</option>
+                <optgroup label="Pijat Bumil & Momy">
+                  <option value="Pijat Ibu Hamil (60 Menit)" data-price="150000">Pijat Ibu Hamil 60 Menit — Rp 150.000</option>
+                  <option value="Pijat Ibu Hamil (90 Menit)" data-price="190000">Pijat Ibu Hamil 90 Menit — Rp 190.000</option>
+                  <option value="Pijat Ibu Hamil (120 Menit)" data-price="240000">Pijat Ibu Hamil 120 Menit — Rp 240.000</option>
+                  <option value="Pijat Laktasi (60 Menit)" data-price="150000">Pijat Laktasi 60 Menit — Rp 150.000</option>
+                  <option value="Pijat Laktasi (90 Menit)" data-price="200000">Pijat Laktasi 90 Menit — Rp 200.000</option>
+                  <option value="Pijat Turun Peranakan (90 Menit)" data-price="190000">Pijat Turun Peranakan 90 Menit — Rp 190.000</option>
+                  <option value="Pijat Turun Peranakan (120 Menit)" data-price="240000">Pijat Turun Peranakan 120 Menit — Rp 240.000</option>
                 </optgroup>
-                <optgroup label="Pijat Bumil &amp; Bayi (Home Spa)">
-                  <option value="Pijat Bumil (90 Menit)" data-price="225000">Pijat Bumil 90 Menit — Rp 225.000</option>
-                  <option value="Pijat Bumil &amp; Totok Wajah (90 Menit)" data-price="265000">Pijat Bumil &amp; Totok
-                    Wajah 90 Menit — Rp 265.000</option>
-                  <option value="Pijat Bumil &amp; Totok Wajah (120 Menit)" data-price="285000">Pijat Bumil &amp; Totok
-                    Wajah 120 Menit — Rp 285.000</option>
-                  <option value="Pijat Bumil &amp; Lulur (90 Menit)" data-price="265000">Pijat Bumil &amp; Lulur 90
-                    Menit — Rp 265.000</option>
-                  <option value="Paket Bumil Pijat Lulur (120 Menit)" data-price="300000">Paket Bumil Pijat Lulur 120
-                    Menit — Rp 300.000</option>
-                  <option value="Paket Bumil Princess Komplit Home Spa (150 Menit)" data-price="375000">Paket Bumil
-                    Princess Komplit 150 Menit — Rp 375.000</option>
-                  <option value="Pijat Bayi Home Spa (30 Menit)" data-price="175000">Pijat Bayi 30 Menit — Rp 175.000
-                  </option>
-                  <option value="Pijat Anak Home Spa (45 Menit)" data-price="200000">Pijat Anak 45 Menit — Rp 200.000
-                  </option>
-                  <option value="Pijat Relaksasi &amp; Laktasi (90 Menit)" data-price="325000">Pijat Relaksasi &amp;
-                    Laktasi 90 Menit — Rp 325.000</option>
-                  <option value="Pijat Relaksasi &amp; Laktasi (120 Menit)" data-price="375000">Pijat Relaksasi &amp;
-                    Laktasi 120 Menit — Rp 375.000</option>
-                </optgroup>
-                <optgroup label="Additional (30 Menit)">
-                  <option value="Additional Body Massage (30 Menit)" data-price="50000">Body Massage 30 Menit — Rp
-                    50.000</option>
-                  <option value="Additional Totok Wajah (30 Menit)" data-price="50000">Totok Wajah 30 Menit — Rp 50.000
-                  </option>
-                  <option value="Additional Lulur (30 Menit)" data-price="100000">Lulur 30 Menit — Rp 100.000</option>
-                  <option value="Additional Refleksi (30 Menit)" data-price="90000">Refleksi 30 Menit — Rp 90.000
-                  </option>
-                  <option value="Additional Kerokan (30 Menit)" data-price="50000">Kerokan 30 Menit — Rp 50.000</option>
-                  <option value="Additional Laktasi (30 Menit)" data-price="90000">Laktasi 30 Menit — Rp 90.000</option>
-                  <option value="Additional Boren (30 Menit)" data-price="150000">Boren 30 Menit — Rp 150.000</option>
-                  <option value="Additional Bekam Kering (30 Menit)" data-price="100000">Bekam Kering 30 Menit — Rp
-                    100.000</option>
-                  <option value="Additional Baby Massage 0-2th (30 Menit)" data-price="160000">Baby Massage 0–2 Th 30
-                    Menit — Rp 160.000</option>
-                  <option value="Additional Toddler Massage 2-5th (30 Menit)" data-price="170000">Toddler Massage 2–5 Th
-                    30 Menit — Rp 170.000</option>
-                  <option value="Additional Kids Massage 5-10th (30 Menit)" data-price="175000">Kids Massage 5–10 Th 30
-                    Menit — Rp 175.000</option>
+                <optgroup label="Pijat Bayi & Balita">
+                  <option value="Pijat Bayi < 3 Tahun (45 Menit)" data-price="150000">Pijat Bayi &lt; 3 Tahun 45 Menit — Rp 150.000</option>
+                  <option value="Pijat Balita 3-6 Tahun (45 Menit)" data-price="130000">Pijat Balita 3–6 Tahun 45 Menit — Rp 130.000</option>
+                  <option value="Pijat Balita 3-6 Tahun (60 Menit)" data-price="150000">Pijat Balita 3–6 Tahun 60 Menit — Rp 150.000</option>
                 </optgroup>
               </select>
               <button type="button" class="btn-add-service" id="addServiceBtn">+ Tambah</button>
