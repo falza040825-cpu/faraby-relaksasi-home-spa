@@ -329,9 +329,13 @@ button {
   color: var(--sage-500);
 }
 
-.logo-mark svg {
-  width: 34px;
-  height: 34px;
+.logo-mark svg,
+.logo-mark img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 50%;
+  display: block;
 }
 
 .logo-text {
