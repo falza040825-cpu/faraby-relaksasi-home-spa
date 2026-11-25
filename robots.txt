@@ -1,0 +1,5 @@
+# robots.txt for Faraby Relaksasi Home Spa
+User-agent: *
+Allow: /
+
+Sitemap: https://falza040825-cpu.github.io/faraby-relaksasi-home-spa/sitemap.xml
