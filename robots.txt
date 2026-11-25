@@ -2,4 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://falza040825-cpu.github.io/faraby-relaksasi-home-spa/sitemap.xml
+Sitemap: https://faraby-relaksasi.netlify.app/sitemap.xml
+
